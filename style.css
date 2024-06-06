@@ -1,0 +1,228 @@
+/* DOCUMENTO CSS - cadastro e login */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(imagens/fundo.jpg);
+}
+
+#topo {
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    height: 15vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.imagem {
+    height: 15vh;
+    width: 8%;
+    border-radius: 200px;
+    margin-right: 10px;
+}
+
+.imagem img {
+    height: 100%;
+    width: 100%;
+    border-radius: 200px;
+}
+
+#conteudo {
+    min-height: 950px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* login */
+#login {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.form1 {
+    flex-direction: row;
+}
+
+.form2 {
+    flex-direction: row;
+}
+
+#nome {
+    height: 30px;
+    transition: all 0.5s;
+}
+
+#nome:hover {
+    background-color: rgb(95, 184, 248);
+}
+
+#senha {
+    height: 30px;
+    transition: all 0.5s;
+}
+
+#senha:hover {
+    background-color: rgb(95, 184, 248);
+}
+
+.linkcada {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.titulo {
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    font-size: 23px;
+}
+
+/* cadastro */
+
+.cadastro {
+    height: 350px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    border-radius: 15px;
+    box-shadow: 1px 5px 30px black;
+    border: 2px black solid;
+    background-color: rgb(222, 222, 222);
+    
+}
+
+.confirme {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#email {
+    height: 30px;
+    transition: all 0.5s;
+}
+
+#email:hover {
+    background-color: rgb(95, 184, 248);
+
+}
+
+#password {
+    height: 30px;
+    transition: all 0.5s;
+}
+
+#password:hover {
+    background-color: rgba(102, 175, 243, 0.742);
+}
+
+#user {
+    height: 30px;
+    transition: all 0.5s;
+}
+
+#user:hover {
+    background-color: rgb(95, 184, 248);
+}
+
+#confirm {
+    height: 30px;
+    transition: all 0.5s;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+#confirm:hover {
+    background-color: rgb(95, 184, 248);
+    border-radius: 0;
+}
+
+
+
+.botao {
+    background-color: rgb(100, 100, 255);
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    width: 75px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.5s;
+}
+
+.botao:hover {
+    background-color: rgb(55, 55, 166);
+    border-radius: 0;
+}
+
+#rodape {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.t1 {
+    font-size: 20;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 260px;
+    height: 100px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.imagemrp {
+    height: 100px;
+    width: 100px;
+    border-radius: 200px;
+    display: flex;
+    margin-right: 10px;
+}
+
+.imagemrp img {
+    height: 100%;
+    width: 100%;
+    border-radius: 200px;
+}
